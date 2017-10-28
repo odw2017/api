@@ -1,4 +1,8 @@
 {
 	"testing": true,
-	"port": 1337
+	"port": 1337,
+	"slack": {
+		"teamName": "",
+		"token": ""
+	}
 }

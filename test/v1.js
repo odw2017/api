@@ -45,7 +45,7 @@ describe( "Version 1", function( ){
 					method: "POST",
 					json: true,
 					body: {
-						email: "robert@keizer.ca"
+						email: "robert+test@keizer.ca"
 					}
 				}, function( err, response, body ){
 					if( err ){ return cb( err ); }
