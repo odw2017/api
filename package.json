@@ -1,0 +1,20 @@
+{
+	"name": "api",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"test": "NODE_ENV=testing ./node_modules/mocha/bin/mocha"
+	},
+	"dependencies": {
+		"async": "^2.5.0",
+		"body-parser": "^1.18.2",
+		"config": "^1.27.0",
+		"express": "^4.16.2",
+		"express-rate-limit": "^2.9.0",
+		"request": "^2.83.0"
+	},
+	"devDependencies": {
+		"assert": "^1.4.1",
+		"mocha": "^4.0.1"
+	}
+}
